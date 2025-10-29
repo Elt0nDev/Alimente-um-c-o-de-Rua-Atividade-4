@@ -18,24 +18,4 @@ O projeto utiliza uma pilha de desenvolvimento front-end simples e robusta, sem 
 | **CSS** | 3 | Estilização, design responsivo e variáveis de design (`style.css`). |
 | **JavaScript** | ES6+ | Interatividade (menu toggle, atualização dinâmica de ano, gráfico de doações e validação de formulário). |
 
-## 🚀 Como Rodar o Projeto Localmente
-
-É muito fácil visualizar e rodar este projeto em seu ambiente local.
-
-1.  **Clone o repositório:**
-    ```bash
-    git clone [URL_DO_SEU_REPOSITÓRIO]
-    ```
-2.  **Navegue até a pasta:**
-    ```bash
-    cd [NOME_DA_PASTA]
-    ```
-3.  **Abra no navegador:**
-    Basta abrir o arquivo `Index.html` diretamente no seu navegador de preferência (Chrome, Firefox, Edge, etc.).
-    
-    *Você não precisa de um servidor local, pois não há código de back-end.*
-
-## 🖼️ Estrutura do Projeto
-
-O repositório está organizado nas seguintes pastas e arquivos principais:
-🔗:
+🔗 Link Projeto: https://elt0ndev.github.io/Alimente-um-c-o-de-Rua-Atividade-4/
