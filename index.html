@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="pt-BR" data-theme="light"> <head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Alimente um Cão de Rua — ONG</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Pular para o conteúdo principal</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Alimente um Cão de Rua — Início">
+        <img src="jpg.1.jpg" alt="Logotipo ONG Alimente um Cão de Rua" class="logo" />
+        <div>
+          <h1 class="brand-title">Alimente um Cão de Rua</h1>
+          <p class="brand-sub">Resgate — Alimentação — Adoção responsável</p>
+        </div>
+      </a>
+
+      <div class="theme-toggle-container">
+        <button id="btn-theme-toggle" class="theme-toggle" aria-label="Alternar tema, atual: Claro ☀️">
+          Tema: Claro ☀️
+        </button>
+
+        <button id="btn-menu" class="menu-button" aria-expanded="false" aria-controls="site-nav">
+          <span aria-hidden="true">☰</span> <span class="sr-only">Abrir ou fechar menu de navegação</span>
+        </button>
+      </div>
+
+      <nav id="site-nav" class="site-nav" role="navigation">
+        <ul>
+          <li><a href="index.html" aria-current="page">Início</a></li>
+          <li><a href="projetos.html">Projetos</a></li>
+          <li><a href="cadastro.html">Cadastro</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content"> <section class="container hero-grid">
+      <div class="hero-text">
+        <h2>Juntos podemos salvar vidas. Doe hoje.</h2>
+        <p>A "Alimente um Cão de Rua" é uma ONG dedicada ao resgate, alimentação, tratamento veterinário e adoção responsável de cães em situação de rua. Sua ajuda é fundamental.</p>
+        <div class="cta-row">
+          <a href="cadastro.html" class="btn btn-primary">Quero ajudar!</a>
+          <a href="projetos.html" class="btn btn-outline">Nossos projetos</a>
+        </div>
+      </div>
+      <figure class="hero-image">
+        <img src="jpg.2.webp" alt="Cachorro de rua sendo alimentado e acariciado por um voluntário da ONG." />
+      </figure>
+    </section>
+
+    <section class="container sobre">
+      <h2>Sobre a ONG</h2>
+      <div class="values-grid">
+        <article>
+          <h3>Resgate e Abrigo</h3>
+          <p>Retiramos cães feridos ou em perigo das ruas, oferecendo abrigo seguro, alimentação e carinho.</p>
+        </article>
+        <article>
+          <h3>Tratamento Veterinário</h3>
+          <p>Todos os cães recebem atendimento veterinário completo, incluindo vacinas, vermífugos e castração.</p>
+        </article>
+        <article>
+          <h3>Adoção Responsável</h3>
+          <p>Realizamos entrevistas e acompanhamento para garantir que cada cão encontre um lar seguro e amoroso para sempre.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="container estatisticas">
+      <h2>Estatísticas de Doação</h2>
+      <div class="estatisticas-inner">
+        <div class="estat-chart">
+          <canvas id="donationChart" width="400" height="200" role="img" aria-labelledby="chart-title" aria-describedby="chart-description"></canvas>
+          <h3 id="chart-title" class="sr-only">Gráfico de Doações Mensais</h3>
+          <p id="chart-description" class="sr-only">Um gráfico de barras mostrando o valor arrecadado mensalmente em 2025.</p>
+          <p class="total">Total arrecadado em 2025: <strong id="total-raised">R$ 0,00</strong></p>
+        </div>
+
+        <aside class="estat-help">
+          <h3>Como ajudar</h3>
+          <ul>
+            <li>Doações de ração, cobertores e medicamentos</li>
+            <li>Voluntariado para alimentar e socializar os cães</li>
+            <li>Divulgação e adoção responsável</li>
+            <li>Doações financeiras via conta ou pontos de coleta</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h4>Contato</h4>
+        <p>Telefone/WhatsApp: <a href="tel:+5511999999999">+55 (11) 99999-9999</a></p>
+        <p>E-mail: <a href="mailto:contato@alimenteumcaoderua.org">contato@alimenteumcaoderua.org</a></p>
+        <p>Endereço: Rua Exemplo, 123 — Cidade/UF</p>
+      </div>
+
+      <div>
+        <h4>Banco / Doações</h4>
+        <p>Banco: Banco Exemplo — Agência: 0000 — Conta: 000000-0</p>
+        <p>CNPJ: 00.000.000/0000-00</p>
+      </div>
+
+      <div>
+        <h4>Redes Sociais</h4>
+        <ul>
+          <li><a href="#" aria-label="Link para o Instagram da ONG">Instagram</a></li>
+          <li><a href="#" aria-label="Link para o Facebook da ONG">Facebook</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="copyright">Alimente um Cão de Rua &copy; 2023 - <span id="ano">2024</span></p>
+    <script src="Script.js"></script>
+  </footer>
+</body>
+</html>
