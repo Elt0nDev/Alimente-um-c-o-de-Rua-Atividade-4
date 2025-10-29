@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="pt-BR" data-theme="light">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Cadastro — Alimente um Cão de Rua</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <a href="#main-content" class="skip-link">Pular para o conteúdo principal</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Voltar ao início">
+        <img src="jpg.1.jpg" alt="Logotipo ONG" class="logo" />
+        <div>
+          <h1 class="brand-title">Alimente um Cão de Rua</h1>
+        </div>
+      </a>
+
+      <div class="theme-toggle-container">
+        <button id="btn-theme-toggle" class="theme-toggle" aria-label="Alternar tema, atual: Claro ☀️">
+          Tema: Claro ☀️
+        </button>
+
+        <button id="btn-menu-3" class="menu-button" aria-expanded="false" aria-controls="site-nav-3">
+          <span aria-hidden="true">☰</span> <span class="sr-only">Abrir ou fechar menu de navegação</span>
+        </button>
+      </div>
+
+      <nav id="site-nav-3" class="site-nav" role="navigation">
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="projetos.html">Projetos</a></li>
+          <li><a href="cadastro.html" aria-current="page">Cadastro</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content" class="container">
+    <section id="form-cadastro" class="cadastro">
+      <h2>Cadastro — Quero ajudar / Voluntariado</h2>
+      <form id="signupForm">
+        <div class="grid-2">
+          <label for="nome">
+            Nome completo <abbr title="Campo obrigatório">*</abbr>
+            <input type="text" name="nome" id="nome" placeholder="Seu nome" required aria-required="true" />
+          </label>
+          <label for="telefone">
+            Telefone <abbr title="Campo obrigatório">*</abbr>
+            <input type="tel" name="telefone" id="telefone" placeholder="(99) 99999-9999" required
+              aria-required="true" />
+          </label>
+          <label for="email">
+            E-mail <abbr title="Campo obrigatório">*</abbr>
+            <input type="email" name="email" id="email" placeholder="seu.email@exemplo.com" required
+              aria-required="true" />
+          </label>
+          <label for="cidade">
+            Cidade / Estado
+            <input type="text" name="cidade" id="cidade" placeholder="Ex.: São Paulo/SP" />
+          </label>
+        </div>
+
+        <fieldset>
+          <legend>Onde você pode ajudar?</legend>
+          <div class="options-grid" role="group" aria-labelledby="ajuda-legend">
+            <span id="ajuda-legend" class="sr-only">Selecione onde você pode ajudar:</span>
+            <label>
+              <input type="checkbox" name="interesse" value="voluntario" /> Voluntariado (Alimentar, passear,
+              socializar)
+            </label>
+            <label>
+              <input type="checkbox" name="interesse" value="financeira" /> Doação Financeira (via pix/conta)
+            </label>
+            <label>
+              <input type="checkbox" name="interesse" value="fisica" /> Doação Física (Ração, remédios, cobertores)
+            </label>
+          </div>
+        </fieldset>
+
+        <label for="mensagem">
+          Mensagem / Observações
+          <textarea name="mensagem" id="mensagem" rows="4"
+            placeholder="Ex.: posso ajudar nas tardes — moro próximo..."></textarea>
+        </label>
+
+        <p class="form-actions">
+          <button type="submit" class="btn btn-primary">Enviar cadastro</button>
+          <button type="reset" class="btn btn-outline">Limpar</button>
+        </p>
+
+        <div id="formMessage" role="status" aria-live="polite" tabindex="-1"></div>
+      </form>
+
+      <section class="donation-info" aria-labelledby="donation-heading">
+        <h3 id="donation-heading">Doações físicas</h3>
+        <p>Se quiser colaborar com doações físicas, traga nos pontos de coleta; ou use os dados abaixo para
+          transferência:</p>
+        <address>
+          <strong>Banco:</strong> Banco Exemplo<br>
+          <strong>Agência:</strong> 0000 — <strong>Conta:</strong> 000000-0<br>
+          <strong>CNPJ:</strong> 00.000.000/0000-00
+        </address>
+      </section>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h4>Contato</h4>
+        <p>Telefone: <a href="tel:+5511999999999">+55 (11) 99999-9999</a></p>
+      </div>
+      <div>
+        <h4>Banco / Doações</h4>
+        <p>Banco: Banco Exemplo — Agência: 0000</p>
+      </div>
+      <div>
+        <h4>Redes Sociais</h4>
+        <ul>
+          <li><a href="#" aria-label="Link para o Instagram da ONG">Instagram</a></li>
+          <li><a href="#" aria-label="Link para o Facebook da ONG">Facebook</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="copyright">Alimente um Cão de Rua &copy; 2023 - <span id="ano-3">2024</span></p>
+    <script src="Script.js"></script>
+  </footer>
+</body>
+
+</html>
